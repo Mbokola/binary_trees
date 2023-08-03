@@ -1,10 +1,10 @@
 #include "binary_trees.h"
 
 /**
- *binary_tree_leaves - counts the nodes with at least 1 child in a binary tree
+ *binary_tree_balance - measures the balance factor of a binary tree
  *@tree:  pointer to the root node of the tree
  *
- *Return: nodes with at least 1 child in a binary tree
+ *Return: Balance factor
  */
 int binary_tree_balance(const binary_tree_t *tree)
 {
